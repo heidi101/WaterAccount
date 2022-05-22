@@ -95,7 +95,7 @@ class userAuth: ObservableObject {
 }*/
 
 struct userAccView: View {
-    let waterAccount1 = WaterAccount(username: "HL", pin: 4321, gallonsUsed: 1, gallonsLeft: 1)
+    let waterAccount1 = WaterAcc (username: "HL", pin: 4321, gallonsUsed: 1, gallonsLeft: 1)
     @State private var buttonColor : Color = .blue
     var body: some View {
         Text("username: " + waterAccount1.username)
